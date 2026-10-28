@@ -10,9 +10,13 @@ This project demonstrates the integration of hardware and software to build a ba
 🎯 Objectives
 
 Build a mobile robot capable of detecting nearby obstacles.
+
 Integrate ultrasonic sensing with a microcontroller.
+
 Control DC motors using a motor driver.
+
 Implement basic decision-making for autonomous movement.
+
 Understand the fundamentals of sensor-based robotic navigation.
 
 🛠️ Hardware Components
@@ -20,31 +24,47 @@ Understand the fundamentals of sensor-based robotic navigation.
 Component
 
 Purpose
-Arduino Uno                                         Reads sensor data and controls the robot
-HC-SR04 ultrasonic sensor                           Measures distance to obstacles
-L298N motor driver                                  Controls motor direction and movement
-DC geared motors                                    Drive the robot's wheels
-Robot chassis and wheels                            Provide the mechanical structure
-Battery/power supply                                Powers the robot electronics and motors
-Jumper wires                                        Connect the electronic components
+
+Arduino Uno-                                        Reads sensor data and controls the robot
+
+HC-SR04 ultrasonic sensor-                         Measures distance to obstacles
+
+L298N motor driver-                                  Controls motor direction and movement
+
+DC geared motors-                                    Drive the robot's wheels
+
+Robot chassis and wheels-                            Provide the mechanical structure
+
+Battery/power supply -                               Powers the robot electronics and motors
+
+Jumper wires-                                        Connect the electronic components
 
 ⚙️ Working Principle
 
 Distance measurement: The ultrasonic sensor emits sound pulses and measures the returning echo.
+
 Signal processing: The Arduino calculates the approximate distance to the detected obstacle.
+
 Decision-making: The program compares the measured distance with a predefined threshold.
+
 Motor control: The motor driver receives control signals from the Arduino to move or turn the robot.
+
 Obstacle avoidance: The robot changes direction when an obstacle is detected and resumes movement according to the programmed logic.
 
 💻 Software and Tools
 
 Programming language: Arduino C/C++
+
 Microcontroller platform: Arduino Uno
+
 Development environment: Arduino IDE
+
 Concepts: Conditional logic, sensor interfacing, digital I/O, and motor control
 
 👩‍💻 Author
 
 Aafia Shamsi
+
 Mechanical Engineering Undergraduate
+
 Zakir Husain College of Engineering and Technology, Aligarh Muslim University
